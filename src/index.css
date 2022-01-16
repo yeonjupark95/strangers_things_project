@@ -1,0 +1,225 @@
+body {
+  margin: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Nunito:wght@500;900&display=swap");
+
+.home,
+.login-form {
+  margin-top: 8rem;
+}
+
+#navbar-brand-text {
+  font-family: "Nunito", sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 900;
+  padding: 1rem;
+}
+
+.nav-link {
+  margin: 0 2rem;
+}
+
+/* home */
+.home {
+  float: right;
+  display: flex;
+}
+
+.home-photo {
+  width: 700px;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: "Nunito", sans-serif;
+}
+
+#home-title {
+  font-size: 2rem;
+  padding-left: 2rem;
+  font-weight: 500;
+}
+
+#home-content {
+  padding: 2rem;
+}
+
+/* posts */
+.posts-wrapper {
+  margin-top: 7rem;
+}
+
+.posts-top-section {
+  margin: 1rem;
+}
+
+.search-bar {
+  float: right;
+  margin-right: 3rem;
+}
+
+.posts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.post {
+  margin: 0.5rem;
+  width: 18rem;
+}
+
+#post-title {
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 2rem;
+  font-family: "Dongle", sans-serif;
+}
+
+#post-description,
+#post-price,
+#post-location,
+#post-delivery {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+#post-description,
+#post-delivery {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.post-optional-items {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.post-messages-from-user {
+  text-align: left;
+}
+
+#delete-button,
+#edit-button,
+#send-message-button {
+  margin: 0.5rem;
+}
+
+/* message, create, and edit */
+.send-a-message,
+.add-a-post,
+.edit-a-post,
+.profile {
+  margin-top: 5rem;
+  padding: 3rem;
+}
+
+.message-card,
+.new-post-card,
+.edit-card {
+  margin: 0.5rem;
+  width: 32rem;
+  text-align: center;
+}
+
+#new-post-form-title,
+#send-message-form-title,
+#edit-post-form-title {
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 2rem;
+  font-family: "Dongle", sans-serif;
+}
+
+.new-post-button {
+  text-align: center;
+}
+
+#title-input {
+  margin-top: 1rem;
+}
+
+#title-input,
+#price-input,
+#location-input {
+  width: 30rem;
+}
+
+#message-form-content-input,
+#description-input {
+  width: 30rem;
+  height: 20rem;
+}
+
+.new-post-button,
+#create-button,
+#message-form-send-button,
+.new-post-will-deliver #edit-form-save-button {
+  margin: 1rem;
+}
+
+/* profile */
+h3 {
+  text-align: center;
+}
+
+#from-user-title,
+#user-sent-title {
+  font-size: 2rem;
+  padding-left: 2rem;
+  font-weight: 500;
+  margin-top: 7rem;
+}
+
+.profile-messages {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+
+#profile-message-content {
+  margin-bottom: 2rem;
+}
+
+/*login and register*/
+.login, .register{
+  margin: 1rem;
+}
+
+.register-form{
+  margin-top: 8rem;
+}
+
+.register-form-title, .login-form-title, .register-form-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+#login-form-button, #register-form-button {
+  background-color: black;
+  padding: 0.3rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+#username-input,
+#password-input {
+  margin-bottom: 1rem;
+}
